@@ -1,0 +1,44 @@
+.page {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.top-tags {
+    bottom: auto;
+    top: 35px;
+}
+
+.bottom-tags {
+    bottom: 55px;
+    top: auto;
+}
+
+.tags {
+    color: '#4d4d4e';
+    opacity: 0.6;
+    font-size: 18px;
+    font-family: 'Helvetiva Neue';
+    left: 120px;
+    position: absolute;
+}
+
+.bottom-tag-html {
+    margin-left: -20px;
+    bottom: 35px;
+}
+
+.container {
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 566px;
+    position: absolute;
+    opacity: 0;
+    top: 5%;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+}
