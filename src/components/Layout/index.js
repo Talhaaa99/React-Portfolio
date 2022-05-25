@@ -8,9 +8,9 @@ const Layout =  () => {
             <div classname='App'>
                 <Sidebar />
                 <div className='page'>
-                    <span className='tags top-tags'>&lt;body&gt;</span>
+                    <span className='tags top-tags'>&lt;portfolio&gt;</span>
                     <Outlet />
-                    <span className='tags bottom-tags'>&lt;/body&gt;</span>
+                    <span className='tags bottom-tags'>&lt;/portfolio&gt;</span>
                     <span className='tags bottom-tag-html'>&lt;/html&gt;</span>
 
                 </div>
